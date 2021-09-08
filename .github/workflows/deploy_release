@@ -24,7 +24,7 @@ jobs:
         npm run-script build
     # 发布
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: Ghostwritten/Github-Action@releases/v1
       # 环境变量
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # GitHub 密钥 ACCESS_TOKEN 是在第二步Settings的Secrets中新增时定义的Name,要保持一致
